@@ -10,7 +10,7 @@ const Home = () => {
         SubscribeButtonClickEvent({ redirectTo: "YoutubeChannel" });
       };
     return (
-        <div className="md:min-h-screen ">
+        <div className="min-h-screen ">
             {/** Rendering Navigation Bar */}
             <NavBar/>
             {/** Rendering Home page data */}
