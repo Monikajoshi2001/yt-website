@@ -22,11 +22,13 @@ const About = () => {
                 </div>
             </div>
             {/**About page written content */}
-            <div className="flex flex-col absolute top-40 right-0 p-10 w-3/4 -z-10">
-                <Heading title = "Hello, I'm Priyanka Joshi"/>
-                <p className="text-HomeTextColor text-ClampForHomeText md:text-ellipsis">
-                The aim of my channel is to simplify commerce education by providing comprehensive lessons in a step-by-step manner. The content covers various subjects, including Corporate Accounting for B.Com and M.Com, basic to advanced Accountancy for class 11 and 12 CBSE, Economics, Business Studies, and Simplified Accounting in both Hindi and English. Additionally, I cover Taxation topics such as GST, INCOME TAX, and TDS.
-                </p>
+            <div className="flex flex-col absolute top-40 right-0 p-10 w-3/4">
+                <div className="-z-10">
+                    <Heading title = "Hello, I'm Priyanka Joshi"/>
+                    <p className="text-HomeTextColor text-ClampForHomeText md:text-ellipsis">
+                    The aim of my channel is to simplify commerce education by providing comprehensive lessons in a step-by-step manner. The content covers various subjects, including Corporate Accounting for B.Com and M.Com, basic to advanced Accountancy for class 11 and 12 CBSE, Economics, Business Studies, and Simplified Accounting in both Hindi and English. Additionally, I cover Taxation topics such as GST, INCOME TAX, and TDS.
+                    </p>
+                </div>
                 <button className="btn-primary" onClick={handleButtonClick}>
                     Learn Now
                 </button>                   

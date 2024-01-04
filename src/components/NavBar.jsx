@@ -13,7 +13,7 @@ const NavBar = ()=>{
         setMenu(!menu);
     }
     return (
-        <div className="top-0 w-full pt-6 fixed ">
+        <div className="top-0 w-full pt-6 fixed z-20">
             <div className="flex flex-row relative">
                 <div className="absolute left-10 top-0">
                     <Link to = "/" className="font-extrabold text-2xl p-1 cursor-pointer">
@@ -38,7 +38,7 @@ const NavBar = ()=>{
                 <MobileMenuIcon handleMenu={handleMenu} />
             </div>
 
-            <div className={` ${menu ? "translate-x-0" : "-translate-x-full"} md:hidden fixed flex flex-col absolute bg-[#ffffff] z-30 left-0 top-20 font-medium text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}>
+            <div className={` ${menu ? "translate-x-0" : "-translate-x-full"} md:hidden fixed flex flex-col absolute bg-[#ffffff] left-0 top-20 font-medium text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}>
                 <Link to="home" spy={true} smooth={true} duration={500} className="nav-mobile-icons">
                     Home
                 </Link>

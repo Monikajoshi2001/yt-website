@@ -24,13 +24,15 @@ const Home = () => {
                     </div>
                 </div>  
                 {/**Home page written content */}
-                <div className="flex flex-col relative top-20 md:top-40 left-10 p-10 w-3/4 -z-10">
+                <div className="flex flex-col relative top-20 md:top-40 left-10 p-10 w-3/4">
+                    <div className = "-z-10">
                     <Heading title = "LEARN FROM THE WELL CURATED LECTURES"/>
                     <p className="text-HomeTextColor text-ClampForHomeText">
                         Unlock Your Potential:
                         Embark on a transformative learning experience designed to unlock your full academic potential.
                         From fundamental concepts to advanced strategies, this series is your key to mastering commerce.
                     </p>
+                    </div>
                     <button className="btn-primary" onClick={handleButtonClick}>
                         Learn Now
                     </button>                   
